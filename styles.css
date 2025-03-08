@@ -1,21 +1,13 @@
 body {
-    background-color: rgb(200,200,200);
+    background: url('assets/images/WebPage_Background_D.jpg') no-repeat center center fixed;
     color: rgb(0,0,0);
-    font-family: "Open Sans", sans-serif;
     text-align: center;
+    overflow: hidden;
 }
 
 #content {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-header {
-	
-}
-
-footer {
-	font-style: italic;
-	font-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }

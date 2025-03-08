@@ -2,21 +2,19 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Title</title>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css">
 		<script src="processing.js"></script>
-		<script src="Guido.js" type="text/javascript"></script>
 	</head>
 	<body>
-		<header>
-			<h1>Header</h1>
-		</header>
-			<section id="content">
-				<canvas id="Minesweeper" data-processing-sources="Minesweeper.pde">
-				</canvas>
-		    </section>
-	    <footer>
-		    Footer
-	    </footer>
+        <section id="content">
+            <canvas id="Minesweeper" data-processing-sources="src/Main.pde src/Scene.pde src/Element.pde src/GameMap.pde src/GameController.pde src/GameRound.pde src/Timer.pde src/elements/GameActionSelectorElement.pde src/elements/GameActionElement.pde src/elements/GameFieldElement.pde src/elements/GameStackElement.pde src/elements/GameTimeRemainElement.pde src/elements/MWButtonElement.pde src/elements/MWHandbookBtnElement.pde src/elements/SWMissionSummaryElement.pde src/elements/HBInfoElement.pde">
+            </canvas>
+        </section>
+
+        <script>
+            window.onload = function() {
+                document.getElementById('Minesweeper').focus();
+            };
+        </script>
 	</body>
 </html>
