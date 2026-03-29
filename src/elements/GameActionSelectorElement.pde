@@ -35,8 +35,8 @@ public class GameActionSelectorElement extends Element {
             1, false,
             transform.x + 15,
             transform.y + 192,
-            -1,
-            -1,
+            -2,
+            -2,
             "ENTER BLOCK",
             new char[] {'s', 's'}
         ));
