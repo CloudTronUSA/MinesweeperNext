@@ -134,7 +134,7 @@ public class GameActionElement extends Element {
     }
 
     public void onKey(GameFieldElement gF) {
-        if (remainingUses <= -1 || timer.update() == 0) {    // if no remaining uses or timer is running, return. set to -1 so player can still unflag when all flags have been used.
+        if (remainingUses == -1 || timer.update() == 0) {    // if no remaining uses or timer is running, return. set to -1 so player can still unflag when all flags have been used.
             return;
         }
         if (key == 'w' || key == 'a' || key == 's' || key == 'd') {
